@@ -48,3 +48,11 @@ ul.nav li {
     background: #f06c64;
     position: absolute;
 }
+
+.services {
+    width: 1020px;
+    height: 500px;
+    margin-top: 695px;
+    background: #f2f2f2;
+    position: absolute;
+}
