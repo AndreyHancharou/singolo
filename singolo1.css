@@ -1,0 +1,13 @@
+body {
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background: #2d303a;
+    width: 1020px;
+    height: 89px;
+    position: absolute;
+    margin: 0 auto;
+}
