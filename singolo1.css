@@ -32,3 +32,11 @@ ul.nav li {
     margin-left: 40px;
     margin-top: 29px;
 }
+
+.header-bottom {
+    width: 1020px;
+    height: 6px;
+    margin-top: 89px;
+    background: #323746;
+    position: absolute;
+}
