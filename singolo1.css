@@ -1,7 +1,11 @@
-body {
-    width: 1020px;
+* {
     margin: 0 auto;
     padding: 0;
+}
+
+body {
+    width: 1020px;
+    font-family: 'Lato';
 }
 
 header {
@@ -13,24 +17,34 @@ header {
 }
 
 h1 {
+    width: 150px;
+    height: 30px;
     font-size: 25px;
     letter-spacing: -0.5px;
-    color: #ffffff;
-    font-family: "Lato";
     font-weight: 700;
-    text-align: left;
-    margin: 0;
+    position: absolute;
+    top: 29px;
+    left: 40px;
+}
+
+p {
+    display: inline-block;
+    position: absolute;
+}
+
+.logo {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.logo-star {
+    color: #f06c64;
+    font-weight: 500;
+    left: 106px;
 }
 
 ul.nav li {
     display: inline;
-}
-
-.logo {
-    width: 108px;
-    height: 25px;
-    margin-left: 40px;
-    margin-top: 29px;
 }
 
 .header-bottom {
