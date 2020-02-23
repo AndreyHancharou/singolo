@@ -43,9 +43,31 @@ p {
     left: 106px;
 }
 
-ul.nav li {
-    display: inline;
+ul {
+    list-style-type: disc;
+    color: #ffffff;
 }
+
+li {
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+    list-style-type: disc;
+}
+
+.item a {
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: #f06c64;
+}
+
+
 
 .header-bottom {
     width: 1020px;
